@@ -1,48 +1,22 @@
-
- p {
-	color: #553930;
+p {
+    color: #553930;
     font-family: verdana, 'Imprima', sans-serif;
-	}
+    }
 
 body {
     background-image: url('img/tex.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+cursor: url(https://i.imgur.com/mzsUluO.png), progress;}
+a:hover {cursor: url(https://i.imgur.com/gG4rCa8.png), progress;}
 
+::selection {color: #ffffff;
+   background: #f7e3eb;}
+::-moz-selection {color: #ffffff;
+   background: #f7e3eb;}
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px pink; 
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: pink; 
-  border-radius: 10px;
-}
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
-}
 
-/*::-webkit-scrollbar {
-width: 10px;
-height: 10px;
-background: #FFC0CB	;
-}
 
-::-webkit-scrollbar-thumb {
-background-color: #f9f0ed;
--webkit-border-radius: 0ex;
-border: 5px double #e2d5d0;
-}
-
--webkit-gradient{linear, left bottom, left bottom, from #f7dcdc to #fffffff, border:1px solid #ccc;}
